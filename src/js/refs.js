@@ -1,7 +1,8 @@
-// export const refs = {
-//   countrySearchInput: document.querySelector('#search-box'),
-//   countryListUl: document.querySelector('.country-list'),
-//   countryInfoDiv: document.querySelector('.country-info'),
-// };
+export const refs = {
+  searchForm: document.querySelector('#search-form'),
+  galleryContainerDiv: document.querySelector('.gallery'),
+  loadMoreBtn: document.querySelector('.load-more'),
+  searchInput: document.querySelector('input'),
+};
 
 // console.log(refs);

@@ -12,33 +12,38 @@ body {
     line-height: 1.5;
 }
 
-/* #search-box {
-    font: inherit;
-    padding: 8px;
-    max-width: 320px;
-    margin-bottom: 16px;
+.load-more {
+    visibility: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
-.country-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+.info-item {
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
-.country-list__content {
-    font-size: 18px;
-    margin: 0;
-}
-
-.country-list__item {
-    margin-bottom: 5px;
-    padding: 0;
+.search-form {
     display: flex;
-    align-items: center;
-    gap: 10px;
+    justify-content: center;
+    gap: 15px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
-.country__content {
-    font-size: 18px;
-    font-weight: bold;
-} */
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo-card {
+    margin-bottom: 20px;
+    border: 1px solid rgb(213, 206, 237)
+}
